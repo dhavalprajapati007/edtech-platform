@@ -1,0 +1,57 @@
+.contentCenter {
+    text-align: center;
+}
+
+.submitBtn,
+.submitBtn:hover,
+.submitBtn:active {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--white);
+    background: var(--thm-color);
+    border-radius: 5px;
+    text-transform: none !important;
+    width: 80px;
+    height: 42px;
+    margin-top: 25px;
+}
+
+.confirmationText {    
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.modalWidth {
+    width: 20vw;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.timeInSeconds {
+    color: var(--thm-color);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/*Small smartphones [325px -> 425px]*/
+@media (min-device-width: 320px) and (max-device-width: 640px) {
+    .modalWidth {
+        width: 60vw;
+    }
+}
+
+/*Big smartphones [426px -> 600px]*/
+@media (min-device-width: 600px) and (max-device-width: 900px) {
+    .modalWidth {
+        width: 35vw;
+    }
+}
+
+/*Tablets [601px -> 1200px]*/
+@media (min-device-width: 900px) and (max-width: 1200px) {
+    .modalWidth {
+        width: 30vw;
+    }
+}

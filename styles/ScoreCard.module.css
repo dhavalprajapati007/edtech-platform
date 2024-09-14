@@ -1,0 +1,181 @@
+.mainContainer {
+    padding: 20px 120px;
+}
+
+.backToHome,
+.backToHome:hover,
+.backToHome:active {
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: var(--white) !important;
+    background: #4e8458 !important;
+    border-radius: 5px !important;
+    text-transform: none!important;
+    height: 48px;
+    padding: 10px 20px !important;
+}
+
+.testDetailsContainer {
+    background: #E6ECE7;
+    border: 1px solid #E6ECE7;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.testDetailsForm {
+    padding: 20px;
+}
+
+.testDetailsHeader,
+.candidateScoreHeader {
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 2px solid var(--black);
+}
+
+.detailsAndScoreContainer {
+    margin-top: 23px;
+}
+
+.testDetails {
+    padding-right: 18px;
+}
+
+.testAnalysis {
+    padding-left: 20px;
+}
+
+.rankContainer,
+.testAnalysisContainer {
+    width: 320px;
+    height: 370px;
+    border: 1px solid var(--black);
+    border-radius: 10px;
+}
+
+.testAnalysisContainer {
+    /* margin-left: 13px; */
+}
+
+.dataInsight span {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.testAnalysisContent,
+.rankContent {
+    padding: 10px 20px;
+}
+
+.squareStyle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+.progressBarContainer {
+    margin: 15px 0px;
+}
+
+.responseSheetBtn,
+.responseSheetBtn:hover,
+.responseSheetBtn:active {
+    background: #e6ece7 !important;
+    border: 1px solid var(--thm-color) !important;
+    border-radius: 10px !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: var(--thm-color) !important;
+    text-transform: none!important;
+    width: 100%;
+    margin-top: 36px !important;
+}
+
+.radilProgressChart {
+    position: relative !important;
+    right: 25px;
+}
+
+.testAnalysisPieChart {
+    position: relative !important;
+    right: 20px;
+}
+
+.marksAnalysisContainer {
+    margin-top: 20px;
+}
+
+.testDetailsValue {
+    color: var(--thm-color);
+    font-weight: 700;
+    font-style: 20px;
+}
+
+.testDetailsMainGrid {
+    min-height: 88vh;
+    border-right: 2px solid #EEEEEE;
+}
+
+@media (min-device-width: 900px) and (max-width: 1200px){
+    .marksAnalysisContainer {
+        margin-top: 15px;
+    }
+
+    .testAnalysisContainer {
+        margin: 20px 0px;
+    }
+}
+
+/*Big smartphones [600px -> 900px]*/
+@media (min-device-width: 600px) and (max-device-width: 900px) {
+    .marksAnalysisContainer {
+        margin-top: 15px;
+    }
+
+    .testAnalysisContainer {
+        margin: 20px 0px;
+    }
+}
+
+/*Small smartphones [320px -> 640px]*/
+@media (min-device-width: 320px) and (max-device-width: 640px) {
+    .testAnalysisContainer {
+        margin: 20px 0px;
+    }
+
+    .radilProgressChart {
+        position: relative !important;
+        right: 60px;
+    }
+}
+
+@media (min-device-width: 320px) and (max-device-width: 1200px) {
+    .mainContainer {
+        padding: 0px 20px;
+    }
+
+    .testAnalysis {
+        padding-left: 0px;
+    }
+
+    .candidateScoreContainer {
+        margin-top: 15px;
+    }
+
+    .testDetails {
+        padding-right: 0px;
+    }
+}
+
+@media (min-device-width: 1200px) and (max-device-width: 1440px) {
+    .radilProgressChart {
+        position: relative !important;
+        right: 100px;
+    }
+
+    .testAnalysisPieChart {
+        position: relative !important;
+        right: 95px;
+    }
+}

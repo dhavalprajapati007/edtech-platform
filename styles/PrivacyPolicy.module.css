@@ -1,0 +1,17 @@
+.mainContainer {
+    padding: 20px 120px;
+}
+
+.titleMainGrid {
+    text-align: center;
+}
+
+.pageTitle {
+    text-decoration: underline;
+}
+
+.olElement {
+    font-weight: bolder;
+    font-size: 18px;
+    text-decoration: underline;
+}

@@ -1,0 +1,106 @@
+.departmentTitle {
+    color: #1877F2;
+}
+
+.sliderSection {
+    margin: 100px 0px !important;
+    display: flex;
+    align-items: center;
+}
+
+
+.reviewSliderText {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+/* .storeHeading {
+    text-align: center;
+} */
+
+.storeTextStyle {
+    color: var(--thm-color);
+    border-bottom: 3px solid var(--yellow);
+}
+
+.storeSliderSection {
+    margin: 69px 0px 218px !important;
+}
+
+.marginSpace {
+    padding: 0px 120px;
+}
+
+.rightSection {
+    display: flex;
+    /* align-items: center; */
+    margin-top: 30px;
+}
+
+.socialMediaSectionContainer {
+    text-align: end;
+    position: relative;
+    left: 21%;
+}
+
+.introDescription {
+    text-align: justify;
+}
+
+/* Media Query For Responsiveness */
+
+/*Tablets [900px -> 1200px]*/
+@media (min-device-width: 900px) and (max-width: 1200px){
+    .aboutLeftSection {
+        padding: 0px 20px;
+    }
+
+    .socialMediaSectionContainer {
+        text-align: center;
+    }
+    .marginSpace {
+        padding: 0px 30px;
+    }
+}
+
+/*Big smartphones [600px -> 900px]*/
+@media (min-device-width: 600px) and (max-device-width: 900px){
+    .aboutLeftSection {
+        padding: 0px 20px;
+    }
+
+    .socialMediaSectionContainer {
+        text-align: center;
+    }
+
+    .marginSpace {
+        padding: 0px 30px;
+    }
+
+    .socialMediaSectionContainer {
+        left: 9%;
+    }
+}
+
+/*Small smartphones [325px -> 425px]*/
+@media (min-device-width: 320px) and (max-device-width: 640px){
+    .aboutLeftSection {
+        padding: 0px 20px;
+    }
+
+    .rightSection {
+        margin-left: 15px;
+    }
+
+    .aboutDeptHeader {
+        text-align: center;
+    }
+
+    .marginSpace {
+        padding: 0px 30px;
+    }
+
+    .socialMediaSectionContainer {
+        display: none;
+    }
+}

@@ -1,0 +1,28 @@
+.solution {
+    margin-top: 38px !important;
+    /* background: rgba(230, 236, 231, 0.2); */
+    border-radius: 10px;
+    border: 1px solid var(--thm-color);
+}
+
+.solution p{
+    padding: 0px 15px;
+}
+
+.solutionText {
+    margin : 5px
+}
+
+.correctAnswer {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.textSize {
+    font-size: 16px;
+}
+
+.imageAutoStyle {
+    height: auto !important;
+    width: auto !important;
+}

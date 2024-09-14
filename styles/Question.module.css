@@ -1,0 +1,99 @@
+.quesMarkGrid,
+.quesTypeContainer,
+.questionDetails {
+    display: flex;
+    align-items: center;
+}
+
+.questionDetails {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.questionIndex {
+    font-weight: 500;
+    font-size: 22px;
+    text-decoration-line: underline;
+}
+
+.questionTypeText {
+    font-weight: 700;
+    font-size: 16px;
+    color: #00646A;
+}
+
+.positiveMark {
+    font-weight: 500;
+    font-size: 12px;
+    color: #009F1D;
+    background: #E6ECE7;
+    border-radius: 10px 0px 0px 10px;
+    padding: 10px 10px 10px 20px;
+    margin-right: 1px;
+}
+
+.negativeMark {
+    font-weight: 500;
+    font-size: 12px;
+    color: #FF0000;
+    background: #E6ECE7;
+    border-radius: 0px 10px 10px 0px;
+    padding: 10px 20px 10px 10px;
+}
+
+.imageAutoStyle {
+    height: auto !important;
+    width: auto !important;
+}
+
+.bookmarkBtn,
+.bookmarkBtn:hover,
+.bookmarkBtn:active {
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--white);
+    border-radius: 5px;
+    height: 40px;
+    text-transform: none !important;
+}
+
+.reportIconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textSize {
+    font-size: 18px;
+}
+
+.deptText {
+    color: var(--thm-color);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+@media (min-device-width: 320px) and (max-device-width: 640px) {
+}
+
+/*Big smartphones [426px -> 600px]*/
+@media (min-device-width: 600px) and (max-device-width: 900px) {
+    
+}
+
+/*Tablets [601px -> 1200px]*/
+@media (min-device-width: 900px) and (max-width: 1200px) {
+    
+}
+
+@media (min-device-width: 320px) and (max-device-width: 1200px) {
+    .positiveMark,
+    .negativeMark {
+        padding: 5px 7px 5px 7px;
+        font-size: 14px;
+    }
+
+    .questionTypeText {
+        padding: 5px;
+        font-size: 14px;
+    }
+}

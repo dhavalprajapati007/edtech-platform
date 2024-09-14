@@ -1,0 +1,156 @@
+
+* {
+  font-family: 'Poppins', sans-serif, 'Roboto';
+}
+
+p {
+  color: #000;
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('../public/assets/Lang/ProximaNovaFont.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+  font-weight: normal;
+  color: #000;
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1.25em;
+}
+
+h2 {
+  font-size: 1.6667em;
+  line-height: 1.25em;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.2222em;
+}
+
+h4 {
+  font-size: 1.3333em;
+  line-height: 1.25em;
+}
+
+h5 {
+  font-size: 1.1666em;
+  line-height: 1.1428em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+  text-decoration:none;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: #FFFFFF;
+}
+
+:root {
+  --black: #000;
+  --white: #ffffff;
+  --thm-color: #024F10;
+  --yellow: #CCCC00;
+  --sky-blue: #00C9F2;
+  --gray: #929292;
+  --maroon: #714545;
+}
+
+.slick-next::before,
+.slick-prev::before {
+  color: var(--thm-color) !important;
+  font-size: 50px !important;
+  font-family: 'Poppins' !important;
+  background: var(--white);
+  border: 1px solid var(--white);
+  box-shadow: 0px 20px 30px rgba(210, 213, 235, 0.25);
+  border-radius: 20px;
+  padding: 0px 5px;
+}
+
+.slick-next {
+  z-index: 20;
+}
+
+.slick-list {
+  text-align: center !important;
+}
+
+input[type=text], input[type=email], input[type=number] {
+  border-radius: 10px !important;
+}
+
+.css-ahj2mt-MuiTypography-root {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Mui-focused fieldset {
+  border : 1px solid var(--thm-color) !important;
+}
+
+.slick-prev{
+  left: -55px !important;
+}
+
+.textAlignRight{
+  text-align: right;
+}
+
+a:visited {
+  color: var(--black);
+}
+
+/* .MuiInputBase-input  {
+  height: 20px !important;
+  padding: 10px;
+  border: none;
+} */
+
+/*Small smartphones [320px -> 640px]*/
+@media (min-device-width: 320px) and (max-device-width: 640px) {
+  .slick-next::before,
+  .slick-prev::before {
+    display: none;
+  }
+}
+
+@media (min-device-width: 600px) and (max-device-width: 900px) {
+  .slick-next::before,
+  .slick-prev::before {
+    display: none;
+  }
+}
+
+@media (min-device-width: 900px) and (max-width: 1200px) {
+  .slick-next::before,
+  .slick-prev::before {
+    display: none;
+  }
+}

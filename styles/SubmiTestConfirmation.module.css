@@ -1,0 +1,71 @@
+.contentCenter {
+    text-align: center;
+}
+
+.submitBtn,
+.submitBtn:hover,
+.submitBtn:active {
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    color: var(--white) !important;
+    background: var(--thm-color) !important;
+    border-radius: 5px !important;
+    text-transform: none!important;
+    width: 95px;
+    height: 42px;
+    margin-top: 25px !important;
+}
+
+.cancelBtn,
+.cancelBtn:hover,
+.cancelBtn:active {
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    color: var(--thm-color) !important;
+    border: 1px solid var(--thm-color);
+    border-radius: 5px !important;
+    text-transform: none!important;
+    width: 95px;
+    height: 42px;
+    margin-top: 25px !important;
+}
+
+.confirmationText {    
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.modalWidth {
+    width: 20vw;
+}
+
+.deleteBtnGrid {
+    text-align: end;
+    padding-right: 10px;
+}
+
+.cancelBtnGrid {
+    text-align: start;
+    padding-left: 10px;
+}
+
+/*Small smartphones [325px -> 425px]*/
+@media (min-device-width: 320px) and (max-device-width: 640px) {
+    .modalWidth {
+        width: 60vw;
+    }
+}
+
+/*Big smartphones [426px -> 600px]*/
+@media (min-device-width: 600px) and (max-device-width: 900px) {
+    .modalWidth {
+        width: 35vw;
+    }
+}
+
+/*Tablets [601px -> 1200px]*/
+@media (min-device-width: 900px) and (max-width: 1200px) {
+    .modalWidth {
+        width: 30vw;
+    }
+}

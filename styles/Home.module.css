@@ -1,0 +1,713 @@
+.mainnav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); */
+  height: 45px;
+}
+
+.mainnav ul li {
+  list-style: none;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.mainnav ul li a {
+  text-decoration: none;
+  color: var(--thm-color);
+  padding: 8px 12px;
+}
+
+.header {
+  display: flex;
+}
+
+.headerMainSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 120px;
+}
+
+.landingPageSection {
+  margin-top: 80px;
+}
+
+.profileActionBtn,
+.profileActionBtn:hover,
+.profileActionBtn:active {
+  min-width: 40px !important;
+  height: 40px !important;
+  background: var(--thm-color) !important;
+  border: 1.2px solid var(--thm-color) !important;
+  border-radius: 16px !important;
+  color: var(--white) !important;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+}
+
+.menuIcon,
+.profileActionMenu {
+  color: var(--thm-color) !important;
+  font-weight: 550 !important;
+}
+
+.getStartedButton {
+  background: var(--thm-color) !important;
+  border-radius: 10px !important;
+  width: 162px;
+  height: 48px;
+  color: var(--white) !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  text-transform: none !important;
+}
+
+.signUpButton {
+  background: var(--thm-color) !important;
+  border-radius: 10px !important;
+  width: 135px;
+  height: 40px;
+  color: var(--white) !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  text-transform: none !important;
+}
+
+.loginButton {
+  background: var(--white) !important;
+  border-radius: 10px !important;
+  border: 1.5px solid var(--thm-color) !important;
+  width: 135px;
+  height: 40px;
+  color: var(--thm-color) !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  text-transform: none !important;
+  margin-left: 10px !important;
+}
+
+.loginButton:hover,
+.loginButton:active {
+  background: var(--white);
+}
+
+.signUpButton:hover,
+.getStartedButton:hover {
+  background: #096119 !important;
+}
+
+.signUpButton:active,
+.getStartedButton:active {
+  background: #084b14 !important;
+}
+
+.nextLink, .nextLink:hover, .nextLink:active, .nextLink:visited, .nextLink:focus {
+  text-decoration:none;
+}
+
+.active {
+  color: var(--thm-color) !important;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 5px 10px;
+  background: #F1F1F1 !important;
+  border-radius: 6px;
+}
+
+.departmentAutocomplete {
+  background: #F8F9FE;
+  border-radius: 10px;
+}
+
+.linkSection a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--black) !important;
+}
+
+.companyInfoCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+}
+
+.downloadButton {
+  background: var(--black) !important;
+  border-radius: px;
+  color: var(--white) !important;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+  text-transform: none !important;
+  width: 101px;
+  height: 25px;
+}
+
+.downloadButton:hover {
+  background: #096119;
+}
+
+.downloadButton:active {
+  background: #084b14;
+}
+
+.getTheAppSectionText span {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--thm-color);
+}
+
+.whySet2ScoreTextSection {
+  text-align: center;
+  margin-bottom: 76px;
+}
+
+.whySet2ScoreTextSection h1 {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.whySet2ScoreTextSection p {
+  font-weight: 500;
+}
+
+.cardMainGrid {
+  margin: 20px 0px;
+}
+
+.infoCard {
+  width: 303px;
+  height: 281px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.infoCard div {
+  font-weight: 600;
+}
+
+.cardsContainer {
+  text-align: -webkit-center !important;
+}
+
+.whyCardIcon {
+  color:#4C505B;
+  width: 50px;
+  height: 45.83px;
+}
+
+.sliderSection,
+.FeatureSliderSection {
+  margin-top: 103px;
+  height: 653px;
+  display: flex;
+  align-items: center;
+}
+
+.sliderSection h1,
+.FeatureSliderSection h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.whySet2ScoreSection {
+  margin: 50px 0px 293px 0px;
+}
+
+.vectorSectionLeft,
+.rightVectorSection,
+.leftVectorSliderSection,
+.rightVectorSliderSection,
+.socialMediaSectionContainer {
+  position: relative;
+}
+
+.signUpPage,
+.paper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 8px;
+}
+
+.majorEllipse {
+  position: absolute;
+  top : 100px;
+  z-index: 5;
+}
+
+.minorEllipse {
+  position: absolute;
+  top: 27%;
+  z-index: 10;
+}
+.rectangleVectorSection {
+  position: absolute;
+  right: 0%;
+  bottom: 80px;
+}
+
+.circleVectorSection {
+  position: absolute;
+  bottom: -25px;
+  right: 50px;
+}
+
+.textAndComponentContainer {
+  text-align: center;
+}
+
+.googlePlayButtonSection,
+.departmentSection {
+  width: 465px !important;
+  height: auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(2, 79, 16, 0.1);
+  box-shadow: 0px 11px 70px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.googlePlayButtonSection {
+  margin-top: 10px;
+}
+
+.departmentButton,
+.departmentButton:active,
+.departmentButton:hover {
+  width: 69px;
+  height: 69px;
+  background: var(--thm-color);
+  border-radius: 5px;
+  color: var(--yellow);
+  font-weight: 600;
+  font-size: 32px;
+  padding: 0px 2px;
+}
+
+.departmentContainer {
+  display: flex;
+  justify-content: center !important;
+}
+
+.rectangleVectorSliderSection {
+  position: absolute;
+  top: 17%;
+  right: 35%;
+}
+
+.circleVectorSliderSection {
+  position: absolute;
+  top: 30%;
+  left: -8px;
+}
+
+.combinedVector {
+  position: absolute;
+  bottom: 0%;
+  right: 0%
+}
+
+.footerSection {
+  margin-top: 65px !important;
+  /* background-color: #f2f2f2; */
+}
+
+.featureHeader {
+  text-align: center;
+  margin-bottom: 57px;
+}
+
+.copyrightTextSection {
+  margin-top: 20px;
+  text-align: center;
+  background: rgba(217, 217, 217, 0.56);
+}
+
+.copyrightText {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 55px;
+  color: var(--thm-color);
+}
+
+.socialMediaIconSection {
+  position: absolute;
+  left: 90%;
+  top: 10%;
+}
+
+.ourAppsSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imageLink {
+  margin-right: 5px;
+}
+
+.buttonSection {
+  text-align: end;
+}
+
+.headerImageSection {
+  align-items: center;
+  display: flex;
+}
+
+.profileIconSection {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.textAlignRight{
+  text-align: right;
+}
+
+.popularDeptEmptyContainer {
+  margin-bottom: 12px;
+}
+
+.marginSpace {
+  padding: 0px 120px;
+}
+
+.successTxt {
+  color: var(--yellow);
+}
+
+.introDescription {
+  text-align: justify;
+}
+
+.companyAddress span {
+  display: block;
+  padding: 2px 0px;
+}
+
+.companyTitle {
+  color: var(--thm-color);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.footerInfoAndLinks {
+  padding: 0px 120px;
+}
+
+.reviewSliderContainer {
+  background: rgba(204, 244, 229, 0.5);
+}
+
+.parentRectangleSliderSection {
+  top: 12%;
+  left: -40px;
+  position: absolute;
+}
+
+.hexaGonalShape {
+  display: flex;
+  align-items: center;
+  height: 258px;
+  width: 210px;
+  background: #FAFCFA;
+  position:relative;
+  left:50px;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+.hexaGonalShape::before,
+.hexaGonalShape::after {
+  content:"";
+  position: absolute;
+  height: 0;
+  width: 0; 
+  top:0;
+  /* half height */
+  border-top: 129px solid transparent;
+  border-bottom: 129px solid transparent;
+}
+
+.hexaGonalShape::before {
+  left:-50px;
+  border-right:50px solid #FAFCFA;
+}
+
+.hexaGonalShape::after {
+  right:-50px;
+  border-left:50px solid #FAFCFA;
+}
+
+.lowerHexagoneGrid {
+  margin-top: 10px !important;
+}
+
+.hexaGoneMainGrid {
+  display: flex;
+  justify-content: center;
+}
+
+.leftHexaGoneMainGrid {
+  display: flex;
+  align-items: center;
+}
+
+.rightSideContentContainer,
+.iconAndTextContainer {
+  text-align: center;
+}
+
+.rightSideContentContainer {
+  margin-top: 20px;
+}
+
+.GATEHEader,
+.whyHeader {
+  color: var(--thm-color);
+}
+
+.GATEHEader {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.quickLinksText {
+  color: var(--maroon);
+  font-weight: 600;
+  font-size: 40px;
+  display: block;
+}
+
+.quickLinksMainContainer {
+  background: #F5F5F5;
+  margin-top: 40px;
+}
+
+.linkText {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.linkTextGrid {
+  margin-top: 50px;
+}
+
+.quickLinkInnerContainer {
+  padding: 78px 0px;
+}
+
+.verticalSliderMainSection {
+  height: 600px;
+  overflow-y: auto;
+}
+
+/* Media Query For Responsiveness */
+
+/*Tablets [900px -> 1200px]*/
+@media (min-device-width: 900px) and (max-width: 1200px){
+  .companyInfoCol {
+    display: flex;
+    flex-direction: inherit;
+  }
+
+  .majorEllipse,
+  .minorEllipse {
+    display: none !important;
+  }
+
+  .socialMediaIconSection {
+    left : 55% !important;
+  }
+
+  .circleVectorSection {
+    top: 100px;
+    right: 60px;
+  }
+
+  .rectangleVectorSection {
+    top: 0px;
+  }
+
+  .combinedVector {
+    bottom: -75px;
+    right: 125px;
+  }
+
+  .rectangleVectorSliderSection { 
+    top: 15%;
+    left: 105px;
+  }
+
+  .mainnav ul {
+    justify-content: end;
+  }
+
+  .headerMainSection {
+    padding: 20px 30px 20px 30px;
+  }
+
+  .marginSpace {
+    padding: 0px 30px;
+  }
+}
+
+.headerStyle {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*Big smartphones [600px -> 900px]*/
+@media (min-device-width: 600px) and (max-device-width: 900px) {
+  .companyInfoCol {
+    display: flex;
+    flex-direction: inherit;
+  }
+
+  .socialMediaIconSection {
+    left: 95%;
+    top: 550px;
+  }
+
+  .majorEllipse,
+  .minorEllipse,
+  .rectangleVectorSection,
+  .circleVectorSection,
+  .circleVectorSliderSection {
+    display: none !important;
+  }
+
+  .whySet2ScoreSection {
+    margin: 40px 0px 20px 0px;
+  }
+  
+  .infoCard {
+    margin-top: 15px;
+  }
+
+  .FeatureSliderSection,
+  .sliderSection {
+    margin-top: 0px;
+  }
+
+  .combinedVector {
+    bottom: -85px;
+  }
+
+  .whySet2ScoreTextSection {
+    margin: 0px;
+  }
+
+  .mainnav ul {
+    justify-content: end;
+  }
+
+  .headerMainSection {
+    padding: 25px 30px 0px 30px;
+  }
+
+  .marginSpace {
+    padding: 0px 30px;
+  }
+}
+
+/*Small smartphones [320px -> 640px]*/
+@media (min-device-width: 320px) and (max-device-width: 640px) {
+  .majorEllipse,
+  .minorEllipse,
+  .rightVectorSection,
+  .rectangleVectorSliderSection,
+  .circleVectorSliderSection,
+  .rightVectorSliderSection {
+    display: none !important;
+  }
+
+  .departmentSection {
+    width: 90%;
+    height: 469px;
+    padding: 20px;
+  }
+
+  .departmentButton,
+  .departmentButton:active,
+  .departmentButton:hover {
+    height: 55px;
+    font-size: 18px;
+    padding: 0px 2px;
+    margin: 1px 0px;
+  }
+
+  .FeatureSliderSection {
+    margin-top: -40px !important;
+  }
+
+  .FeatureSliderSection h1 {
+    margin: 5px 0px 20px;
+  }
+
+  .sliderSection {
+    height: auto;
+  }
+
+  .whySet2ScoreSection,
+  .whySet2ScoreTextSection {
+    margin: 0px;
+  }
+
+  .introLeftSection {
+    margin: 20px;
+  }
+
+  .landingPageSection,
+  .linkSection,
+  .ourAppsMain,
+  .followUsSection {
+    margin-top: 20px;
+  }
+
+  .buttonSection,
+  .appLogoSection,
+  .footerSection {
+    text-align: center;
+  }
+
+  .socialMediaIconSection {
+    display: none;
+  }
+
+  .infoCard {
+    margin-top: 15px;
+  }
+
+  .copyrightText {
+    font-size: 12px;
+  }
+
+  .navigationSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .mainnav ul {
+    display: inline-block;
+    padding: 0px;
+  }
+
+  .mainnav ul li {
+    padding-top: 12px;
+  }
+
+  .headerMainSection {
+    padding: 20px;
+  }
+
+  .marginSpace {
+    padding: 0px 20px;
+  }
+}

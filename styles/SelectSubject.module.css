@@ -1,0 +1,62 @@
+.selectSubTitle {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+
+.startTestBtn,
+.startTestBtn:hover,
+.startTestBtn:active {
+    height: 42px;
+    border: 1px solid #024F10 !important;
+    border-radius: 5px !important;
+    color: var(--thm-color) !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    text-transform: none !important;
+}
+
+.startTestBtnDisabled,
+.startTestBtnDisabled:hover,
+.startTestBtnDisabled:active {
+    border: 1px solid rgba(2,79,16,.5) !important;
+    border-radius: 5px !important;
+    height: 42px;
+    color: rgba(2,79,16,.5)!important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    text-transform: none !important;
+}
+
+.btnContainer {
+    text-align: center;
+}
+
+.subjectListOption {
+    text-align: center;
+}
+
+.popupModalWidth {
+    width: 18vw !important;
+}
+
+/*Small smartphones [325px -> 425px]*/
+@media (min-device-width: 320px) and (max-device-width: 640px) {
+    .popupModalWidth {
+        width: 60vw;
+    }
+}
+
+/*Big smartphones [426px -> 600px]*/
+@media (min-device-width: 600px) and (max-device-width: 900px) {
+    .popupModalWidth {
+        width: 35vw;
+    }
+}
+
+/*Tablets [601px -> 1200px]*/
+@media (min-device-width: 900px) and (max-width: 1200px) {
+    .popupModalWidth {
+        width: 30vw;
+    }
+}

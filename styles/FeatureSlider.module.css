@@ -1,0 +1,159 @@
+.sliderCard {
+    width: 226px !important;
+    min-height: 300px;
+    text-align: left !important;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background: linear-gradient(to bottom,var(--sky-blue), var(--thm-color));
+}
+
+.storeSliderCard {
+    width: 226px !important;
+    height: 100%;
+    text-align: left !important;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background: linear-gradient(to bottom,var(--sky-blue), var(--thm-color));
+}
+
+.cardDiv {
+    min-height: 299px;
+    margin: 0.5px;
+    background: var(--white);
+    border-radius: 5px !important;
+}
+
+.storeCardDiv {
+    height: 304px;
+    margin: 0.5px;
+    background: var(--white);
+    border-radius: 5px !important;
+}
+
+.getStartedButton {
+    background: var(--thm-color);
+    border-radius: 5px;
+    width: 109px;
+    height: 26px;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: none !important;
+}
+
+.departmentTitleSection {
+    background: var(--sky-blue);
+    padding: 12px;
+}
+
+.storeDepartmentUpperSection {
+    background: var(--sky-blue);
+    padding: 12px 12px 0px 12px;
+}
+
+.getStartedButton:hover {
+  background: #096119;
+}
+
+.getStartedButton:active {
+  background: #084b14;
+}
+
+.buttonSection {
+    text-align: center !important;
+}
+
+.featureContent {
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 500;
+}
+
+.userCount {
+    font-size: 8px;
+    font-weight: 600;
+    width: 59px;
+    height: 20px;
+    background: var(--white);
+    border-radius: 10px;
+}
+
+.userCountSection {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.userText {
+    border-radius: 30px;
+    width: 59px;
+    padding: 5px;
+    background: var(--white);
+    text-align: center;
+    font-size: 8px;
+}
+
+.departmentText {
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.storeDepartmentTitleSection {
+    background-color: var(--yellow);
+    text-align: center;
+}
+
+.priceSection {
+    text-align: center;
+}
+
+.priceSection span {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.previewButton,
+.previewButton:hover,
+.previewButton:active {
+    width: 87px;
+    height: 26px;
+    border-radius: 5px;
+    background: var(--sky-blue);
+    color: var(--white);
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: none !important;
+}
+
+.subscribeButton,
+.subscribeButton:hover,
+.subscribeButton:active {
+    margin-left: 13px;
+    width: 87px;
+    height: 26px;
+    border-radius: 5px;
+    background: var(--thm-color);
+    color: var(--white);
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: none !important;
+}
+
+/* Media Query For Responsiveness */
+
+/*Tablets [601px -> 1200px]*/
+@media (min-device-width: 601px) and (max-width: 1200px){
+    
+}
+
+/*Big smartphones [426px -> 600px]*/
+@media only screen and (max-width: 600px){
+
+}
+
+/*Small smartphones [320px -> 600px]*/
+@media (min-device-width: 320px) and (max-device-width: 600px) {
+    .sliderCard {
+        width: 226px !important;
+        height: 254px;
+    }
+}

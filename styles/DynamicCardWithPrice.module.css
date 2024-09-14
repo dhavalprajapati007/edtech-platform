@@ -1,0 +1,214 @@
+.parentContainer {
+    background: var(--white);
+    border: 1px solid #FEE2E2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    width: 308px !important;
+    min-height: 400px;
+}
+
+.examName {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--thm-color);
+}
+
+.deptTitleGrid,
+.examNameGrid {
+    text-align: start;
+}
+
+.userCountGrid {
+    background: rgba(191, 191, 0, 0.5);
+    border-radius: 10px;
+}
+
+.userCountText {
+    font-weight: 275;
+    font-size: 10px;
+}
+
+.sliderCard {
+    width: 226px !important;
+    min-height: 300px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.storeSliderCard {
+    width: 226px !important;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.cardDiv {
+    min-height: 299px;
+    margin: 0.5px;
+    background: var(--white);
+    border-radius: 5px !important;
+}
+
+.storeCardDiv {
+    height: 304px;
+    margin: 0.5px;
+    background: var(--white);
+    border-radius: 5px !important;
+}
+
+
+.departmentTitleSection {
+    background: var(--sky-blue);
+    padding: 12px;
+}
+
+.storeDepartmentUpperSection {
+    padding: 15px 16px;
+}
+
+.subScriptionValidity {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.featureContent {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.userCount {
+    font-size: 8px;
+    font-weight: 600;
+    width: 59px;
+    height: 20px;
+    background: var(--white);
+    border-radius: 10px;
+}
+
+.featuresSection {
+    text-align: start;
+    padding: 0px 10px;
+}
+/* .userAndExamSection {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.departmentTitle {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.userText {
+    border-radius: 30px;
+    width: 59px;
+    padding: 5px;
+    background: var(--white);
+    /* text-align: center; */
+    font-size: 8px;
+}
+
+.departmentText {
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--white);
+}
+
+.storeDepartmentTitleSection {
+    background-color: var(--maroon);
+    /* text-align: center; */
+    padding: 10px 0px;
+}
+
+.priceSection {
+    /* text-align: center; */
+}
+
+.priceSection span {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.previewButton,
+.previewButton:hover,
+.previewButton:active {
+    width: 87px;
+    height: 26px;
+    border-radius: 3px !important;
+    background: #fee2e2 !important;
+    color: var(--black) !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    text-transform: none!important;
+}
+
+.subscribeButton,
+.subscribeButton:hover,
+.subscribeButton:active {
+    margin-left: 13px !important;
+    width: 87px;
+    height: 26px;
+    border-radius: 3px !important;
+    background: var(--maroon) !important;
+    color: var(--white) !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    text-transform: none !important;
+}
+
+.costSection
+.discountContainer {
+    text-align: center;
+}
+
+.costSection span,
+.discountContainer span {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.costContainer {
+    margin-left: 20px;
+}
+
+.cardMainGrid {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-between !important
+}
+
+.costActual {
+    text-align: end;
+    border-right: 1px solid var(--black);
+}
+
+.actualPrice {
+    text-decoration-line: line-through;
+}
+
+.costDiscount {
+    text-align: start;
+}
+
+.actualPrice,
+.discountedPrice {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 1px 10px;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    margin: 0px 15px;
+}
+
+.buttonSection {
+    margin: 10px 0px;
+}
+
+.userCountGrid,
+.buttonSection,
+.discountMainContainer,
+.subScriptionValidityGrid,
+.storeDepartmentTitleContainer {
+    text-align: center;
+}

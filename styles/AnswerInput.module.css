@@ -1,0 +1,29 @@
+.wrongAnswerInput {
+    color: #FF0000 !important;
+    font-weight: 700;
+}
+
+.rightAnswerInput {
+    color: var(--thm-color) !important;
+    font-weight: 700;
+}
+
+.inputField  {
+    width: 100% !important;
+    margin-bottom: 32px !important;
+}
+
+.answerCheckBtn,
+.answerCheckBtn:hover,
+.answerCheckBtn:active {
+    margin-left: 10px !important;
+    width: auto;
+    height: 55px;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    border: 1.5px solid var(--thm-color) !important;
+    text-transform: none!important;
+    background: var(--thm-color) !important;
+    color: var(--white) !important;
+    border-radius: 2px !important;
+}

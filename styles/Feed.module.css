@@ -1,0 +1,186 @@
+.mainContainer {
+    /* border: 0.5px solid #799F80; */
+    /* border-radius: 5px; */
+    margin-top: 10px !important;
+}
+
+.discussionMainContainer {
+    border: 0.5px solid #799F80;
+    border-radius: 5px;
+    margin-top: 10px !important;
+}
+
+.forumQuesMainContainer {
+    border: 0.5px solid #799F80;
+    border-radius: 5px;
+    margin-top: 10px !important;
+}
+
+.profileImage {
+    height: 50px;
+    width: 50px;
+}
+
+.contentSection {
+    padding: 15px 50px 15px 15px !important;
+}
+
+.imageSection {
+    display: flex;
+    align-items: center;
+}
+
+.username {
+    font-weight: 600;
+    font-size: 16px;
+    display: block;
+}
+
+.userInfo {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(2, 79, 16, 0.52);
+}
+
+.userQuestion {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.reviewInfo {
+    font-weight: 500;
+    font-size: 12px;
+    color: rgba(2, 79, 16, 0.39);
+}
+
+.textCenter {
+    display: flex;
+    align-items: center;
+}
+
+.voteSection {
+    margin-top: 15px;
+}
+
+.upvoteButton,
+.upvoteButton:hover,
+.upvoteButton:active {
+    border-radius: 5px 0px 0px 5px !important;
+    /* width: 100%; */
+    height: 48px;
+    color: var(--white) !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    text-transform: none !important;
+}
+
+.upvoted,
+.upvoted:hover,
+.upvoted:active,
+.downvoted,
+.downvoted:hover,
+.downvoted:active {
+    background: var(--thm-color) !important;
+}
+
+.notUpvoted,
+.notUpvoted:hover,
+.notUpvoted:active,
+.notDownvoted,
+.notDownvoted:hover,
+.notDownvoted:active {
+    background: var(--thm-color) !important;
+    opacity: 0.5 !important;
+}
+
+.downvoteButton,
+.downvoteButton:hover,
+.downvoteButton:active {
+    border-radius: 0 5px 5px 0 !important;
+    margin-left: 1px !important;
+    height: 48px;
+    color: var(--white) !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    text-transform: none !important;
+}
+
+.answerOfQuery {
+    text-align: justify;
+}
+
+.muiIconStyle {
+    margin-right: 5px;
+}
+
+.reportButton {
+    cursor: pointer;
+    color: #BB0000;
+}
+
+.postAnsImageText,
+.postAnswerContainer,
+.reportIconContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.postAnsText {
+    margin-left: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--black) !important;
+}
+
+.actionContainer {
+    display: flex;
+    justify-content: space-between
+}
+
+.upvoteDownvoteBtnMainGrid {
+    display: contents;
+}
+
+.chatIconGrid {
+    display: flex;
+    align-items: center;
+}
+
+.horizontalRuler {
+    margin: 30px 0px 10px;
+    border: 0.2px solid #EAEAB6;
+}
+
+.imageDimension {
+    height: auto !important;
+    width: auto !important;
+    max-height: 50vh !important;
+    max-width: 50vw !important;
+}
+
+.modalImageDimension {
+    height: auto !important;
+    width: auto !important;
+    max-height: 70vh !important;
+    max-width: 50vw !important;
+}
+
+.deleteAndEditGrid {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/*Small smartphones [325px -> 425px]*/
+@media (min-device-width: 320px) and (max-device-width: 640px){
+    .contentSection {
+        padding: 15px;
+    }
+
+    .reportButton,
+    .postAnsImageText {
+        margin-top: 10px;
+    }
+}

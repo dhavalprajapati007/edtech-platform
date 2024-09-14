@@ -1,0 +1,207 @@
+.bookmarkText {
+    color: #A5A5A5;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.paddingSpace {
+    padding: 20px 120px;
+}
+
+.discussionBtn,
+.discussionBtn:hover,
+.discussionBtn:active {
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    width: 130px;
+    height: 36px;
+    color: var(--black) !important;
+    background: #e5e580 !important;
+    border: 1.5px solid #e5e580 !important;
+    border-radius: 10px !important;
+    text-transform: none!important;
+}
+
+.showHideSolBtn,
+.showHideSolBtn:hover,
+.showHideSolBtn:active {
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: var(--black) !important;
+    height: 36px;
+    background: #e6ece7 !important;
+    border: 1.5px solid #e6ece7 !important;
+    border-radius: 10px !important;
+    text-transform: none !important;
+}
+
+.reportButton {
+    cursor: pointer;
+    color: #BB0000;
+}
+
+.bookmarkQuestionMainContainer {
+    border-right: 2px solid #999;
+}
+
+.bookmarkQuestionInnerContainer {
+    max-height: 1500px;
+    overflow-y: auto;
+    margin-right: 10px !important;
+}
+
+.calcBtn,
+.calcBtn:hover,
+.calcBtn:active {
+    border: 1.5px solid var(--thm-color) !important;
+    border-radius: 5px !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    color: var(--thm-color) !important;
+    text-transform: none!important;
+    padding-left: 25px !important;
+    height: 100%;
+}
+
+.calcIcon {
+    margin-left: 7.5px;
+}
+
+.calcAndFilterGrid {
+    padding: 0px 0px 20px 10px !important;
+    border-bottom: 2px solid #EEEEEE;
+}
+
+.langSection {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.langText {
+    border: 1px solid var(--black);
+    border-radius: 10px;
+    padding: 4px 24px;
+    font-size: 12px;
+}
+
+.showCalc {
+    display: block !important;
+}
+
+.hideCalc {
+    display: none !important;
+}
+
+.scientificCalcContainer {
+    position: absolute;
+    z-index: 9999;
+}
+
+.reportIconContainer {
+    display: flex;
+    align-items: center;
+}
+
+.sectionMainGrid {
+    border-bottom: 2px solid #EEEEEE;
+}
+
+.sectionMainContainer {
+    max-height: 70vh;
+    overflow-y: auto;
+    margin: 30px 0px 30px 15px !important;
+}
+
+.sectionInnerContainer {
+    margin-right: 10px !important;
+}
+
+.sectionContainer {
+    width: 100%;
+    height: 51px;
+    background: rgba(189, 189, 189, 0.59);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.sectionContainer span {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--thm-color);
+    padding-left: 18px;
+}
+
+.accordionMain {
+    margin: 5px 0px !important;
+}
+
+.activeAccordionSummary {
+    background: rgba(2, 79, 16, 0.5) !important;
+    border-radius: 5px !important;
+}
+
+.activeAccordionTitle {
+    color: var(--white) !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+}
+
+.accordionTitle {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--black);
+}
+
+.questionIndexContainer {
+    margin-top: 16px;
+}
+
+.indexBtn {
+    color: var(--black);
+    border: 1px solid #D9D9D9;
+    width: 46px !important;
+    height: 46px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.singleQuestion {
+    margin: 15px 15px 15px 0px !important;
+    border: 1.5px solid #E6ECE7;
+    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+    border-radius: 10px;
+}
+
+.questionInnerContainer {
+    padding: 15px 20px;
+}
+
+.prevNextBtnSection {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0px;
+}
+
+.navActionBtn,
+.navActionBtn:hover,
+.navActionBtn:active {
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    color: var(--white)!important;
+    background: var(--thm-color) !important;
+    border-radius: 5px !important;
+    text-transform: none!important;
+}
+
+.nextBtnSection {
+    display: flex;
+    justify-content: flex-end;
+}

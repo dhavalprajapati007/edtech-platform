@@ -1,0 +1,104 @@
+.mainContainer {
+    padding: 20px 120px;
+}
+
+.btnContainer {
+    padding-left: 37px;
+    padding-right: 120px;
+}
+
+.instructionTitle {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.testDetailsContainer p {
+    border-bottom: 1.5px solid var(--black);
+    padding-bottom: 10px;
+}
+
+.instructionsContainer {
+    height: 72vh;
+    overflow-y: auto;
+    margin-right: 15px !important;
+}
+
+.backAndNextBtnContainer {
+    margin: 6px 0px;
+}
+
+.backBtn,
+.backBtn:hover,
+.backBtn:active {
+    width: 61px;
+    height: 42px;
+    border: 1px solid var(--black) !important;
+    border-radius: 5px !important;
+    color: var(--thm-color) !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    text-transform: none !important;
+}
+
+.nextBtn,
+.nextBtn:hover,
+.nextBtn:active {
+    width: 58px;
+    height: 42px;
+    background: var(--thm-color) !important;
+    border-radius: 5px !important;
+    color: var(--white) !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    text-transform: none !important;
+}
+
+.nextBtnGrid {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.instructionsSection {
+    padding-right: 15px;
+}
+
+.marginRight {
+    margin-right: 15px;
+}
+
+.verticalOverflowProp {
+    overflow-y: scroll;
+}
+
+.actionBtnMainContainer {
+    background: #E6ECE7;
+    bottom: 0;
+    position: absolute;
+}
+
+.instructionInnerContainer {
+    border-right: 2px solid #E6ECE7
+}
+
+/* Media Query For Responsiveness */
+
+/*Tablets [900px -> 1200px]*/
+@media (min-device-width: 900px) and (max-width: 1200px){
+    .mainContainer {
+        padding: 0px 20px;
+    }
+}
+
+/*Big smartphones [600px -> 900px]*/
+@media (min-device-width: 600px) and (max-device-width: 900px){
+    .mainContainer {
+        padding: 0px 20px;
+    }
+}
+
+/*Small smartphones [325px -> 425px]*/
+@media (min-device-width: 320px) and (max-device-width: 640px){
+    .mainContainer {
+        padding: 0px 20px;
+    }
+}

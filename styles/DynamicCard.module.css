@@ -1,0 +1,96 @@
+.oddParentContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.evenParentContainer {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.cardMainContainer {
+    border-radius: 30px;
+    background: #FEE2E2;
+    margin-bottom: 25px !important;
+    padding-bottom: 20px;
+    min-width: 300px !important;
+    max-width: 300px !important;
+}
+
+.getStartedButton {
+    background: var(--maroon) !important;
+    border-radius: 5px !important;
+    width: 109px;
+    height: 26px;
+    color: var(--white) !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    text-transform: none !important;
+}
+
+.departmentTitleSection {
+    background: var(--maroon);
+    padding: 12px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.getStartedButton:hover {
+  background: #d94848;
+}
+
+.getStartedButton:active {
+  background: #d13d3d;
+}
+
+.buttonSection {
+    text-align: center !important;
+}
+
+.featureContent {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.userCount {
+    font-size: 8px;
+    font-weight: 600;
+    width: 59px;
+    height: 20px;
+    background: var(--white);
+    border-radius: 10px;
+}
+
+.userCountSection {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.userText {
+    margin-right: 14px;
+    border-radius: 2px;
+    width: 49px;
+    height: 13px;
+    padding: 3px;
+    background: #D9D9D9;
+    text-align: center;
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.departmentText {
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--white);
+    overflow-wrap: break-word;
+}
+
+.storeDepartmentTitleSection {
+    background-color: var(--yellow);
+    text-align: center;
+}
+
+.featuresSection {
+    padding-right: 20px;
+}

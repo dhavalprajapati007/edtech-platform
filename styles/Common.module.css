@@ -1,0 +1,40 @@
+.mainContainer {
+    padding: 20px 120px;
+}
+
+.backToHomeBtn,
+.backToHomeBtn:hover,
+.backToHomeBtn:active {
+    border: 1.5px solid var(--thm-color);
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--white);
+    background: var(--thm-color);
+    text-transform: none !important;
+    margin: 20px 0px;
+}
+
+.textEnd {
+    text-align: end;
+}
+
+/* Media Query For Responsiveness */
+
+/*Tablets [900px -> 1200px]*/
+@media (min-device-width: 900px) and (max-width: 1200px){
+}
+
+/*Big smartphones [600px -> 900px]*/
+@media (min-device-width: 600px) and (max-device-width: 900px){
+}
+
+/*Small smartphones [325px -> 425px]*/
+@media (min-device-width: 320px) and (max-device-width: 640px){
+}
+
+@media (min-device-width: 320px) and (max-device-width: 1200px){
+    .mainContainer {
+        padding: 0px 20px;
+    }
+}

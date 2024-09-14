@@ -1,0 +1,48 @@
+.formControl {
+    display: -webkit-inline-box;
+}
+
+.rightAnswerRadioBtn {
+    color: var(--thm-color) !important;
+    stroke-width: 1;
+}
+
+.wrongAnswerRadioBtn {
+    color: #FF0000 !important;
+    stroke-width: 1;
+}
+
+.testModeRadioBtn {
+    color: var(--black) !important;
+    stroke-width: 1;
+}
+
+.rightOptionRadioBtn {
+    stroke: var(--thm-color);
+    stroke-width: 1;
+}
+
+.rightOptionRadioBtn.Mui-disabled .MuiSvgIcon-root {
+    color: #ff0000; /* Replace with your desired color */
+}
+
+.imageAutoStyle {
+    height: auto !important;
+    width: auto !important;
+}
+
+.wrongAnswerCheckbox {
+    color: #FF0000 !important;
+}
+
+.rightAnswerCheckbox {
+    color: var(--thm-color) !important;
+}
+
+.testModeSelectedCheckbox {
+    color: var(--black) !important;
+}
+
+.textSize {
+    font-size: 18px;
+}

@@ -1,0 +1,63 @@
+.sliderCard {
+    min-height: 414px !important;
+    width: 320px !important;
+    text-align: left !important;
+    background: #FFFFFF;
+    border: 1px solid #024F10;
+    box-shadow: 0px 35px 48px rgba(210, 213, 235, 0.4);
+    border-radius: 25px;
+}
+
+.reviewSection {
+    padding: 32px 20px !important;
+}
+
+.profileImage {
+    height: 67px;
+    width: 67px;
+    margin: 0 auto;
+}
+
+.reviewInfoSection {
+    margin-top: 35px !important;
+    margin-left: 15px !important;
+    padding: 10px !important;
+    background: #FFFFFF !important;
+    border-left: 5px solid #3ED7A0 !important;
+    border-radius: 5px !important;
+}
+
+.designation {
+    font-weight: 500;
+    font-size: 9px;
+}
+
+.userName {
+    color: #3ED7A0;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.review,
+.designation {
+  color: #758FA4;
+}
+
+.review {
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 29px;
+    margin-bottom: 0px
+}
+  
+.quotationMark {
+    position: relative;
+    left: 90%;
+    bottom: 200px;
+    width: 28px;
+    height: auto;
+}
+
+.reviewerInfo span {
+    display: block;
+}

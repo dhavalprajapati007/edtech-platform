@@ -1,0 +1,26 @@
+.countryIsoCode {
+    border-radius: 5px 0px 0px 5px;
+    border-color: var(--thm-color) !important;
+}
+
+.getTheAppLinkBtn,
+.getTheAppLinkBtn:active,
+.getTheAppLinkBtn:hover {
+    background: #377449;
+    border: 1px solid var(--thm-color);
+    border-radius: 0px 5px 5px 0px;
+    color: var(--white);
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: none;
+    height: 56px;
+}
+
+.contactNumberField {
+    border-radius: 0px;
+}
+
+.inputField {
+    width: 100% !important;
+    margin-bottom: 32px !important;
+}

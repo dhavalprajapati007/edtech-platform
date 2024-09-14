@@ -1,0 +1,42 @@
+/* width */
+.myCustomScrollbar::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+.myCustomScrollbar::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+
+/* Handle */
+.myCustomScrollbar::-webkit-scrollbar-thumb {
+    background: var(--thm-color); 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.myCustomScrollbar::-webkit-scrollbar-thumb:hover {
+    background: var(--thm-color);
+}
+
+.myCustomScrollbar1::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+.myCustomScrollbar1::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+
+/* Handle */
+.myCustomScrollbar1::-webkit-scrollbar-thumb {
+    background: var(--maroon); 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.myCustomScrollbar1::-webkit-scrollbar-thumb:hover {
+    background: var(--maroon);
+}
